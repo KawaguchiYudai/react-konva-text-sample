@@ -50,8 +50,15 @@ function App() {
           offset={{ x: 0, y: 0 }}
           offsetX={0}
           offsetY={0}
+        />
+      </Layer>
+    </Stage>
+  );
+}
 
-          fontVariant='normal'
+export default App;
+
+/*fontVariant='normal'
           padding={0}
           lineHeight={1}
           wrap='word'
@@ -86,10 +93,4 @@ function App() {
 
           draggable={true}
           dragDistance={10}
-        />
-      </Layer>
-    </Stage>
-  );
-}
-
-export default App;
+*/
